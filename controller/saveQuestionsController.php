@@ -6,5 +6,5 @@
 	
 	if(isset($dados) && !empty($dados)) {
 		$save->saveQuestions("savequestions", $dados);
-		header("Location: ../sistema/pacientes.php?cadastrado_sucesso");
+		
 	}
